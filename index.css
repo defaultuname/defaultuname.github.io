@@ -16,7 +16,7 @@ h1 {
 }
 
 .text {
-    background-color: #ffe1e1;
+    background-color: rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 60px black;
     border-radius: 24px;
     width: fit-content;
@@ -34,4 +34,104 @@ a:hover {
     transition-duration: 0.3s;
     background-color: #000000;
     color: azure;
+}
+
+p {
+    background-color: white;
+    width: fit-content;
+}
+
+.contact {
+    background-color: white;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.telegram:active {
+    background-color: gold;
+    transition-duration: 0.3s;
+}
+
+.telegram:hover {
+    background-color: #168dc8;
+}
+
+.email:hover {
+    background-color: #860000;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 72%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltipemail {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltipemail .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 60%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltipemail .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltipemail:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
 }
