@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
+
+body {
+    font-family: 'Roboto Light', sans-serif;
+    background-image: url("background.jpg");
+    backdrop-filter: blur(223px);
+    color: black;
+    margin-top: 150px;
+    scale: 1.2;
+}
+
+h1 {
+    background-color: gold;
+    width: fit-content;
+    color: black;
+}
+
+.text {
+    background-color: #ffe1e1;
+    box-shadow: 0 0 60px black;
+    border-radius: 24px;
+    width: fit-content;
+    padding: 30px;
+    margin: auto;
+}
+
+a {
+    background-color: gold;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    transition-duration: 0.3s;
+    background-color: #000000;
+    color: azure;
+}
