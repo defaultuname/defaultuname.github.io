@@ -5,6 +5,7 @@ body {
     background-image: url("background.jpg");
     color: black;
     margin-top: 150px;
+    cursor: default;
 }
 
 h1 {
@@ -34,6 +35,13 @@ a:hover {
 
 .contact {
     width: fit-content;
+}
+
+.telegram {
+    cursor: pointer;
+}
+
+.email {
     cursor: pointer;
 }
 
